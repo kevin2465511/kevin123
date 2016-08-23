@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         confirmBtn.setOnClickListener(MainActivity.this);
 
+    @Override
     public void onClick(View v){
         int viewId = v.getId();
         if(viewId == R.id.confirmButton){
